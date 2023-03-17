@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.00" />
+		<link rel="stylesheet" href="dist/libs/bootstrap5/bootstrap5.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="dist/libs/bootstrap5/bootstrap-icons.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="dist/styles/index.css" type="text/css" media="all" />
+		<script src="dist/scripts/index.js" type="module" charset="utf-8"></script>
+	
+		<title>MDF Kohsari</title>
+	</head>
+	<body>
+		<iframe src="dist/components/header.html" frameborder="0" class="toolbar"></iframe>
+		
+		<div class="content container">
+			<div class="pins row">
+				<img src="dist/assets/images/pin-sample.jpg" alt="PIN" class="pin col-11 col-md-4">
+				<img src="dist/assets/images/pin-sample.jpg" alt="PIN" class="pin col-11 col-md-4">
+				<img src="dist/assets/images/pin-sample.jpg" alt="PIN" class="pin col-11 col-md-4">
+				
+				<div class="slider col-8">
+					<div class="slider-buttons">
+						<div class="slider-button slider-button-previous">
+							<i class="bi bi-chevron-left"></i>
+						</div>
+						<div class="slider-button slider-button-next">
+							<i class="bi bi-chevron-right"></i>
+						</div>
+					</div>
+					<img src="dist/assets/images/slider-1.jpg" alt="[Slider]" class="slider-photo" id="slider" />
+					<div class="slider-circles" id="circles"></div>
+				</div>
+				
+				<video class="intro col-4" controls>
+					<source src="dist/assets/other/intro.mp4" type="video/mp4">
+					مرورگر شما از ویدیو پشتیبانی نمی‌کند.
+				</video>
+			</div>
+			
+			<div class="products row">
+				<span class="session-title products-session">محصولات</span>
+				<div class="hr col-12"></div> <br>
+				
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+				<div class="product col-6 col-md-3">
+					<img src="dist/assets/images/product.jpg" alt="A" class="product-photo">
+					<span class="product-title">محصول فلان</span>
+				</div>
+			
+			</div>
+			
+			<div class="brands row">
+				<img src="dist/assets/images/brands-i.png" alt="Iranian" class="col-sm-11 col-md-6">
+				<img src="dist/assets/images/brands-f.png" alt="Foreign" class="col-sm-11 col-md-6">
+			</div>
+			
+			<div class="articles row">
+				<span class="session-title articles-session">مطالب مفید</span>
+				<div class="outer-hr"><div class="inner-hr" style="width: 140px;"></div></div>
+				
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<div class="article col-11 col-md-3">
+					<div class="article-image" style="background-image: url(dist/assets/images/article.jpg);">
+						<div class="article-date">۱۴<br>تیر</div>
+					</div>
+					<div class="article-category">مطالب مفید فرآورده های چوبی</div>
+					<span class="article-title">قیمت ام‌دی‌اف خام</span>
+					<div class="article-statistics">
+						<span class="article-author">مدیریت سایت <i class="bi bi-person-circle"></i></span>
+						<span class="article-comments">نظرها (۰) <i class="bi bi-chat-quote"></i></span>
+					</div>
+					<p class="article-description">لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم لورم ایپسوم ...</p> <br/>
+					<a href="#" class="article-readmore">ادامه مطلب</a>
+				</div>
+				<br>
+				<a href="#" class="read-more-articles">... همه مطالب مفید ...</a>
+			</div>
+			
+			<div class="price-table">
+				<br><br>
+				<h3>لیست موجودی ام‌دی‌اف و نئوپان</h3>
+				<h4>در ابعاد و ضخامت های مختلف</h4>
+				<h5>( ایرانی - خارجی )</h5>
+				
+				<table class="prices table table-striped">
+					<tr class="bg-secondary text-light font-weight-bold">
+						<td>نوع محصول</td>
+						<td>ابعاد</td>
+						<td>ضخامت</td>
+					</tr>
+					<tr>
+						<td>A</td>
+						<td>B</td>
+						<td>C</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>A</td>
+						<td>B</td>
+						<td>C</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>A</td>
+						<td>B</td>
+						<td>C</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="advantages row">
+				<span class="session-title advent-session">مزایای خرید از ما</span>
+				<div class="outer-hr"><div class="inner-hr" style="width: 180px;"></div></div>
+				
+				<div class="advantage col-6">
+					<span class="advent-name">تحویل فوری</span>
+					<img src="dist/assets/images/advent-clock.png" alt="ADVENT" class="advent-icon">
+				</div>
+				<div class="advantage col-6">
+					<span class="advent-name">کالاهای متنوع</span>
+					<img src="dist/assets/images/advent-box.png" alt="ADVENT" class="advent-icon">
+				</div>
+				<div class="advantage col-6">
+					<span class="advent-name">قیمت مناسب</span>
+					<img src="dist/assets/images/advent-coins.png" alt="ADVENT" class="advent-icon">
+				</div>
+				<div class="advantage col-6">
+					<span class="advent-name">تضمین کیفیت</span>
+					<img src="dist/assets/images/advent-quality.png" alt="ADVENT" class="advent-icon">
+				</div>
+				<div class="advantage col-12">
+					<span class="advent-name">پشتیبانی ۲۴ ساعته و آنلاین</span>
+					<img src="dist/assets/images/advent-support.png" alt="ADVENT" class="advent-icon">
+				</div>
+			</div>
+			
+			<br><br>
+			<div class="contact row">
+				<h4 class="contact-session">برای اطلاع از قیمت‌ها و خرید محصولات با ما تماس بگیرید</h4>
+				<div class="contactbox col-sm-12 col-md-6"><i class="bi bi-telephone"></i> 0123456789</div>
+				<div class="contactbox col-sm-12 col-md-6"><i class="bi bi-telephone"></i> 0123456789</div>
+				<div class="contactbox col-sm-12 col-md-6"><i class="bi bi-phone"></i> 09123456789</div>
+				<div class="contactbox col-sm-12 col-md-6"><i class="bi bi-phone"></i> 09123456789</div>
+			</div>
+			
+			<div class="network row">
+				<span class="session-title articles-session">در شبکه‌های اجتماعی</span>
+				<div class="outer-hr"><div class="inner-hr" style="width: 170px;"></div></div>
+				
+				<img class="network-banner col-sm-10 col-md-6" src="dist/assets/images/banner-insta.jpg" alt="Instagram" />
+				<img class="network-banner col-sm-10 col-md-6" src="dist/assets/images/banner-tel.jpg" alt="Telegram" />
+			</div>
+			
+			<br><br>
+			<div class="footer row">
+				<div class="footer-contact col-sm-12 col-md-6 col-lg-3">
+					<h5 class="footer-title">ارتباط با ما</h5>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+				</div>
+				<div class="footer-statistics col-sm-12 col-md-6 col-lg-3">
+					<h5 class="footer-title">آمار بازدید سایت</h5>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					
+				</div>
+				<div class="footer-quick col-sm-12 col-md-6 col-lg-3">
+					<h5 class="footer-title">دسترسی سریع</h5>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					
+				</div>
+				<div class="footer-products col-sm-12 col-md-6 col-lg-3">
+					<h5 class="footer-title">محصولات</h5>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					<span><i class="bi bi-chevron-left"></i> لورم ایپسوم</span><br>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		<iframe src="dist/components/bottomnav.html" frameborder="0" class="fixed-bottom real-bottom-bar"></iframe>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</body>
+</html>

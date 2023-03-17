@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "vazirl";
+  src: url("../assets/fonts/vazir/Vazir-L.ttf");
+}
+@font-face {
+  font-family: "vazir";
+  src: url("../assets/fonts/vazir/Vazir-R.ttf");
+}
+@font-face {
+  font-family: "vazirm";
+  src: url("../assets/fonts/vazir/Vazir-M.ttf");
+}
+@font-face {
+  font-family: "vazirb";
+  src: url("../assets/fonts/vazir/Vazir-B.ttf");
+}
+
+@font-face {
+  font-family: "ubuntul";
+  src: url("../assets/fonts/ubuntu/Ubuntu-L.ttf");
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url("../assets/fonts/ubuntu/Ubuntu-R.ttf");
+}
+@font-face {
+  font-family: "ubuntum";
+  src: url("../assets/fonts/ubuntu/Ubuntu-M.ttf");
+}
+@font-face {
+  font-family: "ubuntub";
+  src: url("../assets/fonts/ubuntu/Ubuntu-B.ttf");
+}
+
+* {
+  font-family: ubuntu, vazir;
+}

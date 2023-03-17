@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>loader</title>
+		
+		<style type="text/css" media="all">
+			@import "../styles/fonts.css";
+			
+			.loader {
+				margin: auto;
+				position: absolute;
+				width: 70px;
+				height: 70px;
+				top: 0;bottom: 0;
+				right: 0;left: 0;
+				background: gray;
+				border-radius: 50px;
+			}
+			.in-loader {
+				width: 63px;
+				height: 63px;
+				margin: auto;
+				position: absolute;
+				top: 0;bottom: 0;
+				right: 0;left: 0;
+				background: white;
+				border: 3.5px dashed black;
+				border-radius: 50px;
+				animation: rgbBorder 7s infinite;
+			}
+			@keyframes rgbBorder {
+				0% {border-color: #F44336;box-shadow: 0 0 8px #F44336; transform: rotate(0deg);}
+				5% {border-color: #e91e63;box-shadow: 0 0 8px #e91e63;}
+				10% {border-color: #9c27b0;box-shadow: 0 0 8px #9c27b0;}
+				15% {border-color: #673AB7;box-shadow: 0 0 8px #673AB7;}
+				20% {border-color: #3f51b5;box-shadow: 0 0 8px #3f51b5;}
+				25% {border-color: #2196F3;box-shadow: 0 0 8px #2196F3;}
+				30% {border-color: #03A9F4;box-shadow: 0 0 8px #03A9F4;}
+				35% {border-color: #00BCD4;box-shadow: 0 0 8px #00BCD4;}
+				40% {border-color: #009688;box-shadow: 0 0 8px #009688;}
+				45% {border-color: #4CAF50;box-shadow: 0 0 8px #4CAF50;}
+				50% {border-color: #8BC34A;box-shadow: 0 0 8px #8BC34A;}
+				55% {border-color: #cddc39;box-shadow: 0 0 8px #cddc39;}
+				60% {border-color: #ffeb3b;box-shadow: 0 0 8px #ffeb3b;}
+				65% {border-color: #ffc107;box-shadow: 0 0 8px #ffc107;}
+				70% {border-color: #FF9800;box-shadow: 0 0 8px #FF9800;}
+				75% {border-color: #FF5722;box-shadow: 0 0 8px #FF5722;}
+				80% {border-color: #795548;box-shadow: 0 0 8px #795548;}
+				85% {border-color: #9E9E9E;box-shadow: 0 0 8px #9E9E9E;}
+				90% {border-color: #607d8b;box-shadow: 0 0 8px #607d8b;}
+				100% {border-color: #000000;box-shadow: 0 0 8px #000000; transform: rotate(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="loader"><div class="in-loader"></div></div>
+	</body>
+</html>
